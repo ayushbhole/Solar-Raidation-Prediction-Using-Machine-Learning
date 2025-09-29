@@ -1,4 +1,8 @@
 # ☀️ Solar Radiation Prediction: A Machine Learning Approach  
+---
+![Solar Radiation Prediction](Solar Raidation Prediction.png)
+
+
 
 
 ## 🎯 Objective  

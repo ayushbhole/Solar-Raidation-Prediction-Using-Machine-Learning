@@ -1,6 +1,5 @@
 # ☀️ Solar Radiation Prediction: A Machine Learning Approach  
 
----
 
 ## 🎯 Objective  
 The main objective of this project is to **develop and evaluate robust machine learning models** for accurate daily **solar radiation prediction**.  

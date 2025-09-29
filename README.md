@@ -61,7 +61,7 @@ The target variable is **ALLSKY_SFC_SW_DWN (Solar Radiation at the surface in W/
 | **prev_hour_radiation** | Lag feature: radiation in the previous hour |  
 | **radiation_rolling_3** | Rolling average of radiation over the past 3 hours |  
 
-📂 **Dataset link:** [Solar Radiation Data](<Insert your dataset link here>)  
+📂 **Dataset link:** [Solar Radiation Data](https://github.com/ayushbhole/Solar-Raidation-Prediction-Using-Machine-Learning/blob/main/cleaned_solar_dataset.csv)  
 
 ---
 

@@ -3,32 +3,45 @@
 ---
 
 ## 🎯 Objective  
----
 The main objective of this project is to **develop and evaluate robust machine learning models** for accurate daily **solar radiation prediction**.  
-The goal is to identify a high-performing model — such as a **Stacked Ensemble Model** — that minimizes prediction errors.  
+This study focuses on identifying a **high-performing model** that minimizes prediction errors and improves forecasting reliability.  
+
+To achieve this, both **individual machine learning models** and a **Stacked Ensemble Model** were implemented.  
+Additionally, **AutoML techniques** were applied for **automatic feature selection and hyperparameter tuning**.  
 
 ---
 
 ## 🌍 About Solar Radiation Prediction  
----
-Solar radiation is a critical meteorological parameter with wide applications in **agriculture, climate studies, and renewable energy management**.  
+Solar radiation is a critical meteorological parameter with applications in:  
+
+- 🌱 Agriculture – crop yield estimation and irrigation planning  
+- 🌍 Climate studies – understanding energy balance and atmospheric changes  
+- ⚡ Renewable energy systems – optimizing photovoltaic (PV) panels, thermal plants, and smart grids  
+
+Accurate prediction of solar radiation is crucial for **maximizing energy harvest, improving grid stability, and enabling smarter energy planning**.  
 
 ---
 
 ## 📝 Problem Statement  
----
-Predicting solar radiation is challenging due to the **dynamic nature of the atmosphere**.  
-This project builds a **reliable predictive framework** using **advanced ensemble learning techniques**.  
+Predicting solar radiation is difficult due to the **highly dynamic nature of the atmosphere**, which is influenced by:  
+
+- Cloud cover ☁️  
+- Humidity 💧  
+- Temperature 🌡️  
+- Seasonal patterns 📅  
+
+Traditional single-model approaches often fail to capture this complexity.  
+This project aims to build a **reliable predictive framework** using **ensemble learning and AutoML** for robust and accurate forecasting.  
 
 ---
 
 ## 📊 Dataset Overview  
----
-The dataset consists of **historical meteorological time-series data** sourced from **NASA POWER (2023–2024)**.  
+The dataset consists of **13,000+ historical meteorological time-series records** sourced from **NASA POWER (2023–2024)**.  
+The target variable is **ALLSKY_SFC_SW_DWN (Solar Radiation at the surface in W/m²)**.  
 
-### Key Variables  
+### Key Features  
 
-| Features | Description |  
+| Feature | Description |  
 | :--- | :--- |  
 | **ALLSKY_SFC_SW_DWN** | Solar radiation at the surface (Target Variable) |  
 | **Temperature** | Air temperature (°C) |  
@@ -45,38 +58,37 @@ The dataset consists of **historical meteorological time-series data** sourced f
 | **prev_hour_radiation** | Lag feature: radiation in the previous hour |  
 | **radiation_rolling_3** | Rolling average of radiation over the past 3 hours |  
 
-**Dataset link:** [Solar Radiation Data](<Insert your dataset link here>)  
+📂 **Dataset link:** [Solar Radiation Data](<Insert your dataset link here>)  
 
 ---
 
 ## 🛠️ Methodology  
----
-1. Data Collection & Preprocessing  
-2. Feature Engineering  
-3. Model Selection & AutoML  
-4. Training & Hyperparameter Tuning  
-5. Model Evaluation  
-6. Visualization  
+1. **Data Collection & Preprocessing** – NASA POWER data, missing value handling, outlier removal, scaling.  
+2. **Feature Engineering** – Lag variables, rolling averages, and temporal features (hour, day, month, seasonality).  
+3. **Model Selection & AutoML** – Used tree-based models (XGBoost, Random Forest, LightGBM), Neural Networks, and **AutoML for feature selection & hyperparameter tuning**.  
+4. **Model Building** – Trained individual models and a **Stacked Ensemble Model** for better performance.  
+5. **Evaluation** – Metrics: R², MAE, MSE, RMSE with **cross-validation**.  
+6. **Visualization** – Plots of actual vs. predicted radiation, feature importance charts.  
 
 ---
 
 ## 💡 Key Concepts Used  
----
-* Time Series Analysis  
-* Regression Models  
-* Ensemble & Stacked Modeling  
-* AutoML for Feature Selection  
-* Model Evaluation (R², MAE, MSE, RMSE)  
+- Time Series Feature Engineering (lag features, rolling averages)  
+- Machine Learning Regression Models (XGBoost, Random Forest, LightGBM, Neural Networks)  
+- **AutoML for automatic feature selection & tuning**  
+- Ensemble & Stacked Modeling  
+- Model Evaluation with R², MAE, MSE, RMSE  
+- Data Visualization  
 
 ---
 
 ## 📂 Files in this Repository  
----
+
 | File Type | Description |  
 | :--- | :--- |  
-| **Jupyter Notebook** | `Solar_Radiation_Prediction.ipynb` |  
-| **PDF Report** | `Solar_Radiation_Analysis_Report.pdf` |  
-| **Dataset** | `Solar_Radiation_Data.csv` |  
+| **Jupyter Notebook** | `Solar_Radiation_Prediction.ipynb` – Full implementation & analysis |  
+| **PDF Report** | `Solar_Radiation_Analysis_Report.pdf` – Detailed research paper/report |  
+| **Dataset** | `Solar_Radiation_Data.csv` – Processed dataset used in the project |  
 
 ---
 

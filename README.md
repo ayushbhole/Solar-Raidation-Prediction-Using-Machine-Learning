@@ -1,1 +1,1 @@
-# Solar-Raidation-Prediction-Using-Machine-Learning
+☀️ Solar Radiation Prediction: A Machine Learning Approach

@@ -90,7 +90,7 @@ The target variable is **ALLSKY_SFC_SW_DWN (Solar Radiation at the surface in W/
 | File Type | Description |  
 | :--- | :--- |  
 | **Jupyter Notebook** | `Solar_Radiation_Prediction.ipynb` – Full implementation & analysis |  
-| **PDF Report** | `Solar_Radiation_Analysis_Report.pdf` – Detailed research paper/report |  
+| **PDF Report** | `Black_Book_Report.pdf` – Detailed research paper/report |  
 | **Dataset** | `cleaned_solar_dataset.csv` – Processed dataset used in the project |  
 
 ---

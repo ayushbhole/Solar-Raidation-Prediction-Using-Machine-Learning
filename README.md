@@ -26,12 +26,26 @@ This project builds a **reliable predictive framework** using **advanced ensembl
 ---
 The dataset consists of **historical meteorological time-series data** sourced from **NASA POWER (2023–2024)**.  
 
-| Column Name | Description |  
+### Key Variables  
+
+| Features | Description |  
 | :--- | :--- |  
 | **Date/Time** | Timestamp for each observation |  
 | **ALLSKY_SFC_SW_DWN** | Solar radiation reaching the surface (Target Variable) |  
-| **Meteorological Features** | Temperature, humidity, wind speed, pressure, etc. |  
-
+| **T2M** | Air temperature at 2 meters (°C) |  
+| **T2M_MAX** | Maximum air temperature at 2 meters (°C) |  
+| **T2M_MIN** | Minimum air temperature at 2 meters (°C) |  
+| **T2M_RANGE** | Diurnal temperature range (°C) |  
+| **RH2M** | Relative humidity at 2 meters (%) |  
+| **PRECTOTCORR** | Precipitation (mm/day) |  
+| **PS** | Surface pressure (kPa) |  
+| **WS2M** | Wind speed at 2 meters (m/s) |  
+| **WD2M** | Wind direction at 2 meters (degrees) |  
+| **QV2M** | Specific humidity at 2 meters (g/kg) |  
+| **ALLSKY_KT** | Clearness index (ratio of actual to potential radiation) |  
+| **ALLSKY_SFC_LW_DWN** | Downward longwave radiation at surface (W/m²) |  
+| **ALLSKY_TOA_SW_DWN** | Solar radiation at the top of atmosphere (W/m²) |  
+| **MODEL_PREDICTIONS** | Output predictions from ML models |  
 **Dataset link:** [Solar Radiation Data](<Insert your dataset link here>)  
 
 ---

@@ -1,6 +1,9 @@
 # ☀️ Solar Radiation Prediction: A Machine Learning Approach  
 ---
-![Solar Radiation Prediction](Solar Raidation Prediction.jpeg)
+<p align="center">
+  <img src="Solar%20Radiation%20Prediction.jpeg" alt="Solar Radiation Prediction" width="600"/>
+</p>
+
 
 
 

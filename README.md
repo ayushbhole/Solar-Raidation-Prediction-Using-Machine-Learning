@@ -30,22 +30,21 @@ The dataset consists of **historical meteorological time-series data** sourced f
 
 | Features | Description |  
 | :--- | :--- |  
-| **Date/Time** | Timestamp for each observation |  
-| **ALLSKY_SFC_SW_DWN** | Solar radiation reaching the surface (Target Variable) |  
-| **T2M** | Air temperature at 2 meters (°C) |  
-| **T2M_MAX** | Maximum air temperature at 2 meters (°C) |  
-| **T2M_MIN** | Minimum air temperature at 2 meters (°C) |  
-| **T2M_RANGE** | Diurnal temperature range (°C) |  
-| **RH2M** | Relative humidity at 2 meters (%) |  
-| **PRECTOTCORR** | Precipitation (mm/day) |  
-| **PS** | Surface pressure (kPa) |  
-| **WS2M** | Wind speed at 2 meters (m/s) |  
-| **WD2M** | Wind direction at 2 meters (degrees) |  
-| **QV2M** | Specific humidity at 2 meters (g/kg) |  
-| **ALLSKY_KT** | Clearness index (ratio of actual to potential radiation) |  
-| **ALLSKY_SFC_LW_DWN** | Downward longwave radiation at surface (W/m²) |  
-| **ALLSKY_TOA_SW_DWN** | Solar radiation at the top of atmosphere (W/m²) |  
-| **MODEL_PREDICTIONS** | Output predictions from ML models |  
+| **ALLSKY_SFC_SW_DWN** | Solar radiation at the surface (Target Variable) |  
+| **Temperature** | Air temperature (°C) |  
+| **Relative_Humidity** | Relative humidity (%) |  
+| **Surface_Pressure** | Atmospheric surface pressure (kPa) |  
+| **Wind_Speed** | Wind speed at 2 meters (m/s) |  
+| **hour** | Hour of the day (0–23) |  
+| **day_of_week** | Day of the week (0 = Monday … 6 = Sunday) |  
+| **month** | Month of the year (1–12) |  
+| **week_of_year** | Week number of the year (1–52) |  
+| **is_weekend** | Binary indicator (1 = weekend, 0 = weekday) |  
+| **day_of_year** | Day number of the year (1–365) |  
+| **Wind_Power** | Derived wind power feature from wind speed |  
+| **prev_hour_radiation** | Lag feature: radiation in the previous hour |  
+| **radiation_rolling_3** | Rolling average of radiation over the past 3 hours |  
+
 **Dataset link:** [Solar Radiation Data](<Insert your dataset link here>)  
 
 ---
